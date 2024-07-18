@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 300px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-top {
+    background: url(./images/bg-pattern-card.svg);
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-image {
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.card-body {
+    margin-top: -30px; 
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+.light-grey {
+    color: hsl(0, 0%, 59%);
+}
+
+.card-actions p {
+    font-size: 12px;
+}
